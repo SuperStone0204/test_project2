@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote
+		name="origin"
+		fetch="ssh://git@github.com/"/>
+	<remote
+		name="html5"
+		fetch="ssh://git@github.com/"
+		review="review.gerrithub.io"/>
+	<default revision="master" remote="origin"/>
+	
+	<project
+		path="bash"
+		name="SuperStone0204/bash"/>
+	<project
+		path="c"
+		name="SuperStone0204/C_Practice"/>
+	<project
+		path="html5"
+		name="SuperStone0204/html5"
+		remote="html5"/>
+</manifest>
